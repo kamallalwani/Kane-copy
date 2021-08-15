@@ -46,6 +46,11 @@ export const description: string = getSiteConfig('description', 'Notion Blog')
 export const twitter: string | null = getSiteConfig('twitter', null)
 export const github: string | null = getSiteConfig('github', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
+export const twitch: string | null = getSiteConfig('twitch', null)
+export const goodreads: string | null = getSiteConfig('goodreads', null)
+export const youtube: string | null = getSiteConfig('youtube', null)
+export const letterboxd: string | null = getSiteConfig('letterboxd', null)
+export const instagram: string | null = getSiteConfig('instagram', null)
 
 export const socialImageTitle: string | null = getSiteConfig(
   'socialImageTitle',

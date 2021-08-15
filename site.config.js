@@ -17,9 +17,13 @@ module.exports = {
   socialImageSubtitle: `It's your boy Jarrod!`,
 
   // social usernames (optional)
-  twitter: '',
+  twitter: 'grime_goblin',
   github: 'JarrodKane',
   linkedin: 'jarrodkane',
+  youtube: 'jarrodkane',
+  twitch: 'grimegoblin',
+  letterboxd: 'jarrodK',
+  goodreads: "75192974-jarrod-kane",
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
