@@ -3,7 +3,10 @@ import cs from 'classnames'
 
 import * as config from 'lib/config'
 
+import { SocialLinks } from './SocialLinks'
+
 import styles from './PageSocial.module.css'
+import { SocialShare } from './SocialShare'
 
 interface SocialLink {
   name: string
@@ -47,9 +50,14 @@ const socialLinks: SocialLink[] = [
   }
 ].filter(Boolean)
 
+// const socialLinks: 
+
+console.log(SocialLinks)
+
 export const PageSocial: React.FC = () => {
   return (
     <div className={styles.pageSocial}>
+      {/* <SocialLinks /> */}
       {socialLinks.map((action) => (
         <a
           className={cs(styles.action, styles[action.name])}
