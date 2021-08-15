@@ -35,3 +35,15 @@ body {
   height: 1.2em !important;
   width: 1.2em !important;
 }
+
+
+.social-share-wrapper {
+  position: sticky;
+top: 100px;
+z-index: 5;
+top: calc((100vh - 48px - 100%) / 2);
+align-self: flex-start;
+flex: 1 1;
+flex-direction: column;
+align-items: center;
+}
